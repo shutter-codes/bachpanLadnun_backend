@@ -7,9 +7,7 @@ app.use(helmet());
 
 const form =  require("./routes/viroutes");
 
-app.use("/", (req, res)=>{
-    res.send("api calls are running ")
-})
+
 
 
 
